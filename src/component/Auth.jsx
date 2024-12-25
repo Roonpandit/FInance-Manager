@@ -84,7 +84,7 @@ const Auth = () => {
     );
 
     if (user) {
-      login(); // Set authentication state to true
+      login(); 
       navigate("/summary");
     } else {
       alert("Invalid Gmail or Password!");
